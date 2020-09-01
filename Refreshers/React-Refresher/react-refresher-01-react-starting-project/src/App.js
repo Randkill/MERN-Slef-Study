@@ -1,14 +1,10 @@
 import React from 'react';
 import './App.css'
+import Names from './Components/Names.js'
 
 const App = () => {
   return <div className="names">
-    <h1>My list</h1>
-    <ul className="name-list">
-      <li>Erfan</li>
-      <li>Nima</li>
-      <li>ErfanNima</li>
-    </ul>
+    <Names />
   </div>
 };
 
