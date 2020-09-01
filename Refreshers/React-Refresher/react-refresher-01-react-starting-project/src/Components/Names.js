@@ -4,7 +4,6 @@ import './Names.css'
 const names = () => {
     return (
         <div>
-        <h1>My list</h1>
     <ul className="name-list">
       <li>Erfan</li>
       <li>Nima</li>
