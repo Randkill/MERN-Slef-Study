@@ -14,7 +14,7 @@ const newName = () => {
     }
 
     return(
-        <form className='name-from' onSubmit={}>
+        <form className='name-from' onSubmit={addEventListener}>
             <input type='text'></input>
             <button type="submit">Add Name</button>
         </form>
