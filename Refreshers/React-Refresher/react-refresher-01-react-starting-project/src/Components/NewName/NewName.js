@@ -2,7 +2,7 @@ import React from 'react'
 import './NewName.css'
 
 const newName = () => {
-    addNameHandler = (event) => {
+    const addNameHandler = (event) => {
         event.preventDefault();     //prevents frontend from sending any request to the server!
 
         const nemName = {
