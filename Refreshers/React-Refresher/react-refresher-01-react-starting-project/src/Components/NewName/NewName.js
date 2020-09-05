@@ -1,24 +1,33 @@
-import React from 'react'
+import React, { useState } from 'react'
 import './NewName.css'
 
-const newName = (props) => {
+const NewName = (props) => {
+
+    const [enteredText, setEnteredText] = useState([''])
+
     const addNameHandler = (event) => {
         event.preventDefault();     //prevents frontend from sending any request to the server!
 
-        const nemName = {
+        const nemEnteredName = {
             id: Math.random().toString(),
-            name: 'NEW NAME'
+            name: enteredText
         }
 
-        props.onAddName(newName)
+        setEnteredText('')
+
+        props.onAddName(nemEnteredName)
+    }
+
+    const textChangeHandler = (event) => {
+        setEnteredText(event.target.value)
     }
 
     return(
         <form className='name-from' onSubmit={addNameHandler}>
-            <input type='text'></input>
+            <input type='text' value={enteredText} onChange={textChangeHandler}></input>
             <button type="submit">Add Name</button>
         </form>
     )
 }
 
-export default newName;
+export default NewName;
