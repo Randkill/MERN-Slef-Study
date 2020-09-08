@@ -6,9 +6,8 @@ const user = () => {
     const USERS = [{
         id: 'u1',
         name: 'Randkill',
-        image: 'https://www.google.com/url?sa=i&url=https%3A%2F%2Fappsource.microsoft.com%2Fen-us%2Fproduct%2Fpower-bi-visuals%2FWA104381835%3Ftab%3DOverview&psig=AOvVaw15RAPhwcS6RHHXHVT6t7Fu&ust=1599482404167000&source=images&cd=vfe&ved=0CAIQjRxqFwoTCMCFuLbG1OsCFQAAAAAdAAAAABAD',
+        image: 'https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Keanu_Reeves_2014.jpg/170px-Keanu_Reeves_2014.jpg',
         places: 3
-
     }]
 
     return(
