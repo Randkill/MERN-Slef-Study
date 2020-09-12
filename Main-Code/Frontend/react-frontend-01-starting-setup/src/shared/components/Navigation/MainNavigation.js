@@ -9,16 +9,16 @@ import SideDrawer from './SideDrawer.js';
 const MainNavigation = (props) => {
     return(
         <React.Fragment>
-            <SideDrawer className='main-navigation__drawer-nav'>
+            {/* <SideDrawer className='main-navigation__drawer-nav'>
                 <NavLinks/>
-            </SideDrawer>
+            </SideDrawer> */}
             <MainHeader>
                 <button className='main-navigation__menu-btn'>
                     <span/>
                     <span/>
                     <span/>
                 </button>
-                <h1 classNam='main-navigation__title'>
+                <h1 className='main-navigation__title'>
                     <Link to="/">Your Places</Link>
                 </h1>
                 <nav className='main-navigation__header-nav'>
