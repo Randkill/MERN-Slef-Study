@@ -7,10 +7,10 @@ const Dummy_places = [
   {
     id: "p1",
     title: "Santa Monica State Beach",
-    descrption: "Los Angles` great beach!",
+    description: "Los Angles` great beach!",
     imageUrl:
       "https://lh5.googleusercontent.com/p/AF1QipM6xDOeWIcPIugQfQYqIn7y8yWxsbyQDx6oPgd-=w408-h306-k-no",
-    addess: "California, United States",
+      address: "California, United States",
     location: {
       lat: 34.0106946,
       lng: -118.5176967,
@@ -20,10 +20,10 @@ const Dummy_places = [
   {
     id: "p1",
     title: "Santa Monica State Beach",
-    descrption: "Los Angles` great beach!",
+    description: "Los Angles` great beach!",
     imageUrl:
       "https://lh5.googleusercontent.com/p/AF1QipM6xDOeWIcPIugQfQYqIn7y8yWxsbyQDx6oPgd-=w408-h306-k-no",
-    addess: "California, United States",
+      address: "California, United States",
     location: {
       lat: 34.0106946,
       lng: -118.5176967,
